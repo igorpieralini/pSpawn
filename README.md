@@ -1,51 +1,48 @@
-⛏️ Plugin pSpawn - Minecraft
+⛏️ **pSpawn Plugin - Minecraft**
 
-📜 Descrição
+## 📜 Description
 
-O pSpawn é um plugin simples e eficiente para servidores de Minecraft que permite aos jogadores definir e teleportar para o spawn do servidor com facilidade.
+**pSpawn** is a simple and efficient Minecraft plugin that allows players to set and teleport to the server spawn easily.
 
-⚡ Funcionalidades
+## ⚡ Features
 
-🏠 /setspawn - Define a localização do spawn.
+* 🏠 **/setspawn** - Sets the spawn location.
+* 🚀 **/spawn** - Teleports the player to the defined spawn.
+* 🔧 Easy and intuitive configuration.
 
-🚀 /spawn - Teleporta o jogador para o spawn definido.
+## 🔧 Installation
 
-🔧 Configurações fáceis e intuitivas.
+1. Download the `.jar` file of the plugin.
+2. Place the file in your server's `plugins` folder.
+3. Restart the server.
 
-🔧 Instalação
+## 📜 Permissions
 
-Baixe o arquivo .jar do plugin.
+* `pspawn.setspawn` - Allows setting the spawn.
+* `pspawn.spawn` - Allows teleporting to the spawn.
 
-Coloque o arquivo na pasta plugins do seu servidor.
+## 🚀 How to Use
 
-Reinicie o servidor.
+* Administrators can set the spawn with:
 
-📜 Permissões
+  ```
+  /setspawn
+  ```
+* Players can teleport to spawn at any time with:
 
-pspawn.setspawn - Permite definir o spawn.
+  ```
+  /spawn
+  ```
 
-pspawn.spawn - Permite teleportar para o spawn.
+## 📌 Requirements
 
-🚀 Como Usar
+* Spigot or PaperMC server (1.16+ recommended).
+* Proper permissions configured for correct usage.
 
-Um administrador pode definir o spawn com:
+## 📢 Support
 
-/setspawn
+If you encounter any issues, please contact the developer or open an issue on the repository.
 
-Jogadores podem ir até o spawn a qualquer momento com:
+## 📄 License
 
-/spawn
-
-📌 Requisitos
-
-Servidor Spigot ou PaperMC (1.16+ recomendado).
-
-Permissões configuradas corretamente para uso adequado.
-
-📢 Suporte
-
-Caso encontre algum problema, entre em contato ou abra uma issue no repositório!
-
-📄 Licença
-
-Este projeto está sob a licença MIT.
+This project is licensed under the **MIT License**.
